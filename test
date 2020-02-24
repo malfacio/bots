@@ -1,0 +1,11 @@
+const embed = {
+  "description": "__**Game:**__ *Title of the game* \n \n \n __**Your name:**__ *Name of your Steam profile* \n \n __**Your ID:**__ *ID64 of your Steam profile* \n \n \n __**Suspect's name:**__ *Name of the rule breaker* \n \n __**Suspect's ID:**__ *ID64 of the rule breaker* \n \n \n __**Description:**__ *What happened in a few words* \n \n \n __**Evidence:**__ *(Screenshot/Video)*",
+  "color": 123455,
+  "thumbnail": {
+    "url": "https://cdn.discordapp.com/attachments/678295824945643578/681587308859883520/info.png"
+  },
+  "image": {
+    "url": "https://cdn.discordapp.com/attachments/678295824945643578/681590677729181714/Edit_Report_Book_Note_Bill-512.png"
+  }
+};
+channel.send("Please use the following template for your reports!", { embed });
